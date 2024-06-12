@@ -1,0 +1,77 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.login-card {
+  background: white;
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.login-switch {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.login-switch-btn {
+  background: none;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+ 
+}
+
+.login-switch-btn.active {
+  font-weight: bold;
+
+  border-bottom: 2px solid grey; 
+}
+
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.or-separator {
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.social-login .social-btn {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.social-btn.google { background-color: #DB4437; color: white; }
+.social-btn.apple { background-color: #333333; color: white; }
+.social-btn.facebook { background-color: #3B5998; color: white; }
+
+.signup-link {
+  margin-top: 20px;
+}
