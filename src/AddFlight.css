@@ -1,0 +1,60 @@
+.add-flight {
+  background-color: #ECF0F1; /* Light grey background */
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.add-flight h2 {
+  margin-bottom: 20px;
+  color: #34495E; /* Darker text */
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  margin-right: 10px;
+  color: #34495E; /* Darker text */
+}
+
+.form-group input {
+  padding: 5px;
+  margin-right: 10px;
+  border: 1px solid #BDC3C7; /* Light grey border */
+  border-radius: 5px;
+}
+
+.form-group .long-input {
+  flex: 2;
+}
+
+.form-group .short-input {
+  width: 100px;
+}
+
+.form-group .date-input {
+  width: 150px;
+}
+
+.form-group .duration-input {
+  width: 100px;
+}
+
+button[type="submit"] {
+  background-color: #1ABC9C; /* Green background */
+  color: white; /* White text */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #16A085; /* Darker green on hover */
+}
